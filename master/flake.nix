@@ -8,8 +8,8 @@
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
   inputs.src-cirru_writer-master.flake = false;
+  inputs.src-cirru_writer-master.ref   = "refs/heads/master";
   inputs.src-cirru_writer-master.owner = "Cirru";
-  inputs.src-cirru_writer-master.ref   = "master";
   inputs.src-cirru_writer-master.repo  = "writer.nim";
   inputs.src-cirru_writer-master.type  = "github";
   
