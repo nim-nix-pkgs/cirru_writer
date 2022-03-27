@@ -11,6 +11,7 @@
   inputs.src-cirru_writer-v0_1_1.ref   = "refs/tags/v0.1.1";
   inputs.src-cirru_writer-v0_1_1.owner = "Cirru";
   inputs.src-cirru_writer-v0_1_1.repo  = "writer.nim";
+  inputs.src-cirru_writer-v0_1_1.dir   = "";
   inputs.src-cirru_writer-v0_1_1.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
